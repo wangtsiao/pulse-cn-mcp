@@ -1,0 +1,12 @@
+version: '3'
+services:
+  weibohot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - HTTPS_PROXY=http://host.docker.internal:7890
+        - HTTP_PROXY=http://host.docker.internal:7890
+        - https_proxy=http://host.docker.internal:7890
+        - http_proxy=http://host.docker.internal:7890
+    restart: unless-stopped
