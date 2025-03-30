@@ -4,7 +4,7 @@
     "": {
       "name": "mcp-weibohot-server",
       "dependencies": {
-        "@modelcontextprotocol/sdk": "^1.7.0",
+        "@modelcontextprotocol/sdk": "^1.8.0",
       },
       "devDependencies": {
         "@types/node": "^22.13.10",

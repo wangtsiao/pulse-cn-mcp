@@ -12,7 +12,7 @@ import { registerOtherHotspotTools } from './tools/otherHotspots.js';
 
 // Create server instance
 const server = new McpServer({
-  name: "weibo-hot-server",
+  name: "pulse-cn-mcp",
   version: "0.1.0",
 });
 
