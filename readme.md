@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue)](https://www.typescriptlang.org/)
-[![MCP](https://img.shields.io/badge/MCP-Protocol-brightgreen)](https://github.com/anthropics/anthropic-cookbook/tree/main/model_context_protocol)
+[![smithery badge](https://smithery.ai/badge/@wangtsiao/mcp-weibohot-server)](https://smithery.ai/server/@wangtsiao/mcp-weibohot-server)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 A powerful Model Context Protocol (MCP) server providing real-time trending content from the Chinese internet.
@@ -46,16 +46,18 @@ The server provides real-time access to trending data from 18 major Chinese plat
 
 ```bash
 # Clone the repository
-git clone https://github.com/wangtsiao/mcp-weibohot-server.git
+git clone https://github.com/wangtsiao/pulse-cn-mcp.git
 
 # Navigate to the project directory
-cd mcp-weibohot-server
+cd pulse-cn-mcp
 
-# Install dependencies
+# Using npm
 npm install
-
-# Build the project
 npm run build
+
+# Or using Bun (faster)
+bun install
+bun run build
 ```
 
 ## ⚡ Quick Start
@@ -63,7 +65,11 @@ npm run build
 Start the MCP server with:
 
 ```bash
+# Using npm
 npm start
+
+# Or using Bun
+bun start
 ```
 
 This launches the server using the Stdio transport, making it ready for MCP-compatible AI models to connect.

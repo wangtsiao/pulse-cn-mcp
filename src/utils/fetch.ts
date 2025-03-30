@@ -7,10 +7,9 @@ import {
   PaperNewsResponse
 } from '../types/index.js';
 
-export const WEIBO_API_URL = "https://api.vvhan.com/api/hotlist/wbHot";
 
 export async function fetchWeiboHot() {
-  const response = await fetch(WEIBO_API_URL);
+  const response = await fetch("https://api.vvhan.com/api/hotlist/wbHot");
   const data: WeiboHotResponse = await response.json();
   return data.data;
 }
