@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue)](https://www.typescriptlang.org/)
-[![smithery badge](https://smithery.ai/badge/@wangtsiao/mcp-weibohot-server)](https://smithery.ai/server/@wangtsiao/mcp-weibohot-server)
+[![smithery badge](https://smithery.ai/badge/@wangtsiao/pulse-cn-mcp)](https://smithery.ai/server/@wangtsiao/pulse-cn-mcp)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 A powerful Model Context Protocol (MCP) server providing real-time trending content from the Chinese internet.
