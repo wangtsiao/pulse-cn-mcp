@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/wangtsiao-pulse-cn-mcp-badge.png)](https://mseep.ai/app/wangtsiao-pulse-cn-mcp)
+
 <div align="center">
 
 # 🔥 Pulse CN MCP Server
